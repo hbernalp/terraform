@@ -32,3 +32,9 @@ Para trabajar en AWS con terraform, en la consola debemossaber en que region vam
 
 se debe ingresar al archivo credentials y colocar las credenciales de key y secret key suministradas por el usuario de AWS creado desde el IAM
 
+los comandos a utilizar seran:
+
+    -> terraform init => para inicializar el terraform en nuestro ambiente de trabajo, este se ejecuta 1 sola vez, para traer los binarios de Terraform
+    -> terraform plan => Este verifica que la configuracion esta correcta para trabajar con AWS
+    -> terraform apply => Aplica la solicitud en AWS segun lo construido
+    
