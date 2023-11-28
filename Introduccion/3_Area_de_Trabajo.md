@@ -35,6 +35,12 @@ se debe ingresar al archivo credentials y colocar las credenciales de key y secr
 los comandos a utilizar seran:
 
     -> terraform init => para inicializar el terraform en nuestro ambiente de trabajo, este se ejecuta 1 sola vez, para traer los binarios de Terraform
+
     -> terraform plan => Este verifica que la configuracion esta correcta para trabajar con AWS
+
     -> terraform apply => Aplica la solicitud en AWS segun lo construido
+
+    -> terraform apply -auto-approve => aplica los cambios sin confirmacion de usuario
+
+    -> terraform destroy => Limpie sus recursos y elimine la máquina de estado 
     
